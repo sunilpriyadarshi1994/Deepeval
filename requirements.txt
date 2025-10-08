@@ -1,0 +1,25 @@
+# Core LLM evaluation framework
+deepeval==0.20.91
+
+# Embeddings
+sentence-transformers==2.6.1
+
+# Excel file handling
+openpyxl==3.1.2
+pandas==2.2.2
+
+# Optional: For cosine similarity, NumPy is required
+numpy==1.26.4
+
+# Keyword matching
+scikit-learn==1.4.2
+
+# For running CLI commands
+pytest==8.2.2
+pytest-html==4.1.1
+
+# Optional: tqdm for progress bars in loops
+tqdm==4.66.4
+
+# Optional: If you are using requests for any API calls
+requests==2.32.3
